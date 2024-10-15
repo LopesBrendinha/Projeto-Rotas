@@ -1,0 +1,156 @@
+/* Global Styles */
+
+body {
+    background: #f3f1ec;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  /* Links */
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  /* Buttons */
+  
+  button {
+    background: #f3f1ec;
+    border: 2px solid #800000;
+    color: #800000;
+    padding: .6em 1.2em;
+    padding-bottom: .9em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: .45em;
+    -webkit-transition: background .15s, color .15s;
+    transition: background .15s, color .15s;
+  }
+  
+  button:hover {
+    background: #800000;
+    color: white;
+  }
+  
+  button:active {
+    background: white;
+    color: #800000;
+    border-color: white;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+  
+  /* General Styles */
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Specific Styles for Each Component */
+  
+  /* Contato */
+  
+  .Contato {
+    margin-top: 20px;
+  }
+  
+  .Contato h1 {
+    margin-top: 0;
+  }
+  
+  .Contato a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .Contato form {
+    margin-top: 20px;
+  }
+  
+  .Contato label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .Contato input, .Contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Home */
+  
+  .Home {
+    margin-top: 20px;
+  }
+  
+  .Home h1 {
+    margin-top: 0;
+  }
+  
+  .Home nav {
+    margin-top: 20px;
+  }
+  
+  .Home nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Produto */
+  
+  .Produto {
+    margin-top: 20px;
+  }
+  
+  .Produto h1 {
+    margin-top: 0;
+  }
+  
+  .Produto a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .produto-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media Queries */
+  
+  @media only screen and (max-width: 800px) {
+    #toBeCentered {
+      width: 100%;
+      min-width: 0px;
+    }
+    #wrapBox {
+      font-size: 2em;
+    }
+    button {
+      font-size: .55em;
+    }
+  }
